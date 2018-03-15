@@ -26,7 +26,10 @@ public:
 
 	~Application() {
 
-		delete[] modules;
+		for (int i = NUM_MODULES; i > 0; --i) {
+
+			delete modules[i];
+		}
 	}
 
 	// INIT all modules
@@ -86,7 +89,6 @@ public:
 
 		return true;
 	}
-
 };
 
 #endif // __APPLICATION_H__
