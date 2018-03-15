@@ -87,7 +87,6 @@ public:
 			modules[i]->CleanUp();
 		}
 
-		delete modules;
 		return true;
 	}
 };
