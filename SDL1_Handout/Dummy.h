@@ -41,7 +41,7 @@ class ModuleDummy : public Module
 
 class DummyESC : public Module {
 
-
+	
 };
 
 #endif // __DUMMY_H__
